@@ -37,6 +37,7 @@ services:
     depends_on:
       - zoo1
 
+#for kafka-schema-registry
   kafka-schema-registry:
     image: confluentinc/cp-schema-registry:7.3.2
     hostname: kafka-schema-registry
